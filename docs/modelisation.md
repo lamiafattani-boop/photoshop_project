@@ -172,6 +172,9 @@ Il y a différentes type de transformation d'image: rigide et non rigide
 
 ### 3.1 Trnasformation rigide
 
- Les transformation rigides sont une forme de transformation ou la taille et les forme sont conservée. En gros, on parle seulment de deplacement (translation ou rotation) dans l'espace. Cependant, cette transformation requiert une base d'algèbre linaire:
+ Les transformation rigides sont une forme de transformation ou la taille et les forme sont conservée. En gros, on parle seulment de deplacement (translation ou rotation et symetrie) dans l'espace. Cependant, cette transformation requiert une base d'algèbre linaire:
 
- En effet, il y'a 
+ En effet, il y'a toute un changement matricielle au niveau des coordonne de l'image
+
+#### 3.1.2 Rotation
+Imaginons on a un point $P=(0,0)$
