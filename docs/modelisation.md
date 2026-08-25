@@ -457,6 +457,11 @@ Si on reste en format png ou jpeg, il sera facile de pixeliser, tout ce que on f
 ## 6. Plan ui
 ![alt text](image-2.png)
 
+
+
+
+
+sjsdbcjhbdcvjebvjebvjebvierv
 ## Sources:
 
 - [Teinte, Saturation et Valeur](https://fr.wikipedia.org/wiki/Teinte_Saturation_Valeur)
