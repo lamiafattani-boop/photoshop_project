@@ -20,6 +20,9 @@ Le gestionnaire de fichier consiste a importer ou exporter une photo afin de la 
     2. Le programme procèede ensuite a l'encodage on passe de binaire a java text
     3. Le programme emballe l'image sous une étiquette
     4. Le programme sauvegarde le fichier dans le disque dur
+   
+![alt text](<2026-08-25 16-56.jpg>)
+
 
 ### 1.2 Exportation
 
