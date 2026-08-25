@@ -14,14 +14,14 @@
 
 Le gestionnaire de fichier consiste a importer ou exporter une photo afin de la modifier. Pour gérer cela, on utilisera une fichier json. Le seule problème réside dans la transformation les données binaire d'une image en une suite de caractère string car le json refuse le binaire. En effet, json est un format base sur javascript. En gros, le language javascript utilise le texte pour les structure de donnée. Donc on est obligé de tous transformer en texte rendu dans les fichier json
 
-### 1.1 Exportation
+### 1.1 Importation 
 
     1. Le programme ouvre l'image et les donne sont lit en octets
     2. Le programme procèede ensuite a l'encodage on passe de binaire a java text
     3. Le programme emballe l'image sous une étiquette
     4. Le programme sauvegarde le fichier dans le disque dur
 
-### 1.2 Importation
+### 1.2 Exportation
 
     1. Le programme lit le fichier json
     2. Le programme transforme le texte en octets
@@ -458,10 +458,6 @@ Si on reste en format png ou jpeg, il sera facile de pixeliser, tout ce que on f
 ![alt text](image-2.png)
 
 
-
-
-
-sjsdbcjhbdcvjebvjebvjebvierv
 ## Sources:
 
 - [Teinte, Saturation et Valeur](https://fr.wikipedia.org/wiki/Teinte_Saturation_Valeur)
