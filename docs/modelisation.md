@@ -24,6 +24,9 @@ Le gestionnaire de fichier consiste a importer ou exporter une photo afin de la 
 ![alt text](<2026-08-25 16-56.jpg>)
 
 
+### CHANGEONS A QT
+
+
 ### 1.2 Exportation
 
     1. Le programme lit le fichier json
@@ -469,6 +472,7 @@ Si on reste en format png ou jpeg, il sera facile de pixeliser, tout ce que on f
 - [Bilinear interpolation](https://en.wikipedia.org/wiki/Bilinear_interpolation?utm_source=chatgpt.com)
 - [Bilinear interpolation](https://web.pdx.edu/~jduh/courses/geog493f09/Students/W6_Bilinear%20Interpolation.pdf)
 - [algebre lineaire et imagerie numerique](https://fredbl.gitlab.io/algebre-lineaire-et-imagerie-numerique/geometrie.html)
+- [import with qt](https://doc.qt.io/qtdesignstudio/creator-exporting-qml.html)
 
 
 
