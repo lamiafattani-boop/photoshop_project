@@ -62,12 +62,17 @@ class Browser(QDialog):
     @Slot()
     def save_file(self):
 
-            path, _ = QFileDialog.getSaveFileName(
+        path, _ = QFileDialog.getSaveFileName(
         self,
         "Save Image",
         os.getcwd(),
         "Image File (*.jpg)"
         )
+        if path:
+            my_content = "This is the text that will be saved to the hard drive."
+
+            with open(path, "w", encoding="utf-8") as file:
+                file.write(my_content)
         
 
 class ShowImage(QWidget):
